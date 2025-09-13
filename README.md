@@ -6,7 +6,7 @@ A comprehensive personal finance management application built with React Router,
 
 ## Software Demo Video
 
-(Video will be added here)
+[Demo Video](https://www.youtube.com/watch?v=6BZipoWggII)
 
 ## Development Environment
 
