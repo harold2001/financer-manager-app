@@ -3,6 +3,10 @@ import { type RouteConfig, index } from '@react-router/dev/routes';
 export default [
   index('routes/home.tsx'),
   {
+    path: 'register',
+    file: 'routes/register.tsx',
+  },
+  {
     path: '',
     file: 'routes/protected.tsx',
     children: [
@@ -19,10 +23,12 @@ export default [
             file: 'routes/transactions/transactions.tsx',
           },
           {
+            id: 'create-transaction',
             path: 'transactions/create',
             file: 'routes/transactions/create-transaction.tsx',
           },
           {
+            id: 'edit-transaction',
             path: 'transactions/edit/:id',
             file: 'routes/transactions/create-transaction.tsx',
           },
